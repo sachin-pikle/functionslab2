@@ -140,7 +140,7 @@ home directory (i.e., /home/demo) type:
 
 ![user input](images/userinput.png)
 >```sh
->git clone https://github.com/shaunsmith/functionslab.git
+>git clone https://github.com/sachin-pikle/functionslab2.git
 >```
 
 In the `functionslab` folder you'll find the sources for this workshop along
