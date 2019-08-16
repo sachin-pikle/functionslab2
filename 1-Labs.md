@@ -21,6 +21,10 @@ Node.js programming.
 
 So let's [create and deploy your first function](3-First-Function.md).
 
+## Your First Python Function
+
+https://github.com/abhirockzz/oracle-functions-hello-worlds/blob/master/python-hello-world.md
+
 ## Java Functions
 
 Fn provides an FDK (Function Development Kit) for each of the core supported
