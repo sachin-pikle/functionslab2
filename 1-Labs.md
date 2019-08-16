@@ -60,6 +60,13 @@ Let's start with a single function that list objects from an OCI Object Store bu
 Now, let's extend this example with functions that perform get and put operations on an OCI Object Store bucket.
 [Java Functions to perform list/get/put operations on OCI Object Store](https://github.com/abhirockzz/oracle-functions-oci-object-store).
 
+## Accessing ATP database from a Java function
+
+https://blogs.oracle.com/developers/oracle-functions-connecting-to-an-atp-database
+
+
+
+
 ## Containers as Functions
 
 One of the coolest features of Fn is that while it's easy to write functions in
@@ -69,13 +76,13 @@ utilities, or use a programming language not yet supported by Fn.  Try the
 [Containers as Functions](6-Container-as-Function.md)
 tutorial to see how easy it is.
 
-## Functions Clients [TODO: UPDATE TO USE LATEST SDKS]
+## Functions Clients
 
 Functions can be invoked over HTTP using their "invoke endpoint".  You can
 either invoke the endpoint directly or use the OCI SDK to both manage and invoke
 functions.  We'll explore invoking a function via the
 [`oci-curl` utility](7-Functions-Clients.md) as well as invocation using the
-[OCI SDK for Functions](8-Functions-Clients-SDK.md).
+[OCI SDK for Functions](https://blogs.oracle.com/developers/oracle-functions-invoking-functions-with-the-oci-sdk).
 
 ## Functions CI/CD
 
