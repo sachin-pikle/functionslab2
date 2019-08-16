@@ -53,7 +53,11 @@ In this example we will take a look at a serverless way to trigger your function
 
 ## Access other OCI services from a function
 
-Next, let's see an example of how to use Functions Resource Principals to access downstream OCI services. Each function is a resource, can be added to a dynamic group and policies can be configured to grant the group access to specific downstream OCI services. In this example, let's write a function to perform list/get/put operations on an OCI Object Store bucket.
+Next, let's see an example of how to use Functions Resource Principals to access downstream OCI services. Each function is a resource, can be added to a dynamic group and policies can be configured to grant the group access to specific downstream OCI services. For more information about this topic please see https://docs.cloud.oracle.com/iaas/Content/Functions/Tasks/functionsaccessingociresources.htm
+
+Let's start with a single function that list objects from an OCI Object Store bucket. [Getting Started with Oracle Functions and Object Storage](https://blogs.oracle.com/cloud-infrastructure/getting-started-with-oracle-functions-and-object-storage)
+
+Now, let's extend this example with functions that perform get and put operations on an OCI Object Store bucket.
 [Java Functions to perform list/get/put operations on OCI Object Store](https://github.com/abhirockzz/oracle-functions-oci-object-store).
 
 ## Containers as Functions
