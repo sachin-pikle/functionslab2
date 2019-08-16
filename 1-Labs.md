@@ -45,6 +45,18 @@ introduces techniques you can use to track down the source of a failure.
 Next, let's see an example of how to use Functions Resource Principals to access downstream OCI services. Each function is a resource, can be added to a dynamic group and policies can be configured to grant the group access to specific downstream OCI services. In this example, let's write a function to perform list/get/put operations on an OCI Object Store bucket.
 [Java Functions to perform list/get/put operations on OCI Object Store](https://github.com/abhirockzz/oracle-functions-oci-object-store).
 
+## Getting started with OCI Events
+
+In this example we will take a look at another serverless offering - OCI Events service. We will listen to object store bucket create/update/delete events and send an email notification when someone creates/updates/deletes buckets. With simple event rules you can keep an eye on OCI resource changes without having to write, deploy, run and maintain your own polling mechanism on a server yourself.
+[Send email notifications using OCI Events ](https://docs.cloud.oracle.com/iaas/Content/Events/Concepts/eventsgetstarted.htm)
+
+
+## Trigger a Function using OCI Events
+
+In this example we will take a look at a serverless way to trigger your function using OCI Events.
+[Trigger a function using OCI Object Store Object Events](https://blogs.oracle.com/developers/oracle-functions-invoking-functions-automatically-with-cloud-events)
+
+
 
 ## Containers as Functions
 
