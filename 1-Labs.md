@@ -40,7 +40,7 @@ etc.  Fortunately the
 [Troubleshooting](5-Troubleshooting.md) tutorial
 introduces techniques you can use to track down the source of a failure.
 
-## Functions that use other OCI services like Object Store using Functions Resource Principals
+## Access other OCI services from Functions
 
 Next, let's see an example of how to use Functions Resource Principals to access downstream OCI services. Each function is a resource, can be added to a dynamic group and policies can be configured to grant the group access to specific downstream OCI services. In this example, let's write a function to perform list/get/put operations on an OCI Object Store bucket.
 [Java Functions to perform list/get/put operations on OCI Object Store](https://github.com/abhirockzz/oracle-functions-oci-object-store).
